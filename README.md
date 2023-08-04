@@ -6,7 +6,7 @@ This project provides a simple setup for running a Flask application alongside a
 
 The project is organized into the following directories:
 
-\`\`\`
+
 flask-postgres-docker/
 │
 ├── postgres/
@@ -21,7 +21,7 @@ flask-postgres-docker/
 │   └── requirements.txt (Python dependencies)
 │
 └── docker-compose.yml (Docker Compose file to orchestrate containers)
-\`\`\`
+
 
 ## Requirements
 
