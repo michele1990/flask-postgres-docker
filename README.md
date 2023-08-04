@@ -6,22 +6,21 @@ This project provides a simple setup for running a Flask application alongside a
 
 The project is organized into the following directories:
 
-
-flask-postgres-docker/
-│
-├── postgres/
-│   ├── Dockerfile
-│   └── init.sql (optional, for database initialization)
-│
-├── flask_app/
-│   ├── templates/
-│   │   └── index.html (HTML template for the web page)
-│   ├── app.py (main application code)
-│   ├── Dockerfile (Dockerfile for the Flask container)
-│   └── requirements.txt (Python dependencies)
-│
-└── docker-compose.yml (Docker Compose file to orchestrate containers)
-
+```bash
+├── docker-compose.yml
+├── flask_app
+│   ├── app.py
+│   ├── Dockerfile
+│   ├── requirements.txt
+│   └── templates
+│       ├── employees.html
+│       ├── header.html
+│       └── index.html
+├── postgres
+│   ├── Dockerfile
+│   └── init.sql
+└── README.md
+```
 
 ## Requirements
 
