@@ -34,21 +34,21 @@ flask-postgres-docker
 
 2. Navigate to the project directory:
 
-   \`\`\`bash
+   ```bash
    cd flask-postgres-docker
-   \`\`\`
+   ```
 
 3. Build and start the containers using Docker Compose:
 
-   \`\`\`bash
+   ```bash
    docker-compose up --build
-   \`\`\`
+   ```
 
    To run the containers in detached mode, use:
 
-   \`\`\`bash
+   ```bash
    docker-compose up --build -d
-   \`\`\`
+   ```
 
 4. Access the Flask application by opening your web browser and navigating to `http://localhost:5001`.
 
